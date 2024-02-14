@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="src/QuestUp.png" type="image/x-icon">
+	<title>QuestUp</title>
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<h1 class="title-text" id="optionName">QuestUp</h1>
+
+	<div id="content">
+		<div id="QuestUp" class="content-item active">
+			<h2 class="content-title">Welcome to QuestUp!</h2>
+			<p class="content-description">This is your home page where you can find the latest updates and news.</p>
+		</div>
+		<div id="Profile" class="content-item">
+			<h2 class="content-title">Your Profile</h2>
+			<p class="content-description">View and edit your profile here.</p>
+		</div>
+		<div id="Quests" class="content-item">
+			<h2 class="content-title">Your Quests</h2>
+			<p class="content-description">See all the quests you're currently undertaking and check your progress.</p>
+		</div>
+		<div id="Friends" class="content-item">
+			<h2 class="content-title">Your Friends</h2>
+			<p class="content-description">Connect and interact with your friends here.</p>
+		</div>
+		<div id="Settings" class="content-item">
+			<h2 class="content-title">Settings</h2>
+			<p class="content-description">Manage your account and app settings.</p>
+		</div>
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li class="active">
+			<a href="#" data-name="QuestUp">
+				<i class='bx bx-home icon'></i>
+				<i class='bx bxs-home activeIcon'></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" data-name="Profile">
+				<i class='bx bx-user icon'></i>
+				<i class='bx bxs-user activeIcon'></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" data-name="Quests">
+				<i class='bx bx-dumbbell icon'></i>
+				<i class='bx bxs-dumbbell activeIcon'></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" data-name="Friends">
+				<i class='bx bx-heart icon'></i>
+				<i class='bx bxs-heart activeIcon'></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" data-name="Settings">
+				<i class='bx bx-cog icon'></i>
+				<i class='bx bxs-cog activeIcon'></i>
+			</a>
+		</li>
+		<div class="indicator"></div>
+		</ul>		
+	</div>
+
+	<script src="scripts/main.js"></script>
+</body>
+</html>
